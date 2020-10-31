@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: prod
-        image: sramananece/apache-pod1
+        image: sramananece/dev:latest
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 80
