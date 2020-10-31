@@ -15,7 +15,7 @@ pipeline {
         }
         stage('hub-push') {
             steps {
-                build 'dockerpush2'
+                build 'DockerPush'
             }
         }
         stage('Prod') {
